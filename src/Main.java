@@ -36,10 +36,14 @@ public class Main {
 
         HotChicken chicken = new HotChicken();
             chicken.coordinates= new double[2][2];
-                chicken.coordinates[0][0]=(26.6);
-                chicken.coordinates[0][1]=(132.6);
-                chicken.coordinates[1][0]=(46.8);
-                chicken.coordinates[1][1]=(146.7);
+                    int longitude=0;
+                    int lattitude=1;
+                    int store1=0;
+                    int store2=1;
+                chicken.coordinates[store1][longitude]=(26.6);
+                chicken.coordinates[store1][lattitude]=(132.6);
+                chicken.coordinates[store2][longitude]=(46.8);
+                chicken.coordinates[store2][lattitude]=(146.7);
             chicken.isHot=true;
             chicken.name="Princes";
             chicken.sides= new String[6];
